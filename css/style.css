@@ -1,0 +1,59 @@
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px #3292a6;
+          box-shadow: 2px 2px 5px #3292a6;
+          background-color: #398cfa;
+}
+.carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background:url(../img/image1.jpg),rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.carousel-img-2{
+  background:url(../img/image2.jpeg);
+    background-size: cover;
+}
+.carousel-img-3{
+  background:url(../img/image3.jpeg);
+    background-size: cover;
+}
+#getstarted{
+  background: url(../img/getstarted.jpg) rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+#home-icon .fa{
+  font-size: 20PX;
+  color: #007bff;
+}
+#home-vedio{
+  background:url(../img/people.jpeg),rgb(0, 0, 0,0.8);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+i.fa.fa-play-circle {
+  font-size: 75px;
+  color: red;
+}
+#gallery img{
+  min-height: 300px;
+}
+#copyright {
+  background-color: #000;
+}
+@media(max-width:768px){
+  #gallery img{
+    min-height: 200px;
+  }
+
+}
+@media(max-width:495px){
+  .carousel-inner h2{
+    font:10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
